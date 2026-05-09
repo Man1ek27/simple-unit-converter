@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "agh-unit-converter-Man1ek27"
-version = "0.1.1"
+version = "1.1.1"
 authors = [
   { name="Mariusz", email="mwatroba@student.agh.edu.pl" },
 ]
