@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agh-unit-converter-Man1ek27"
+version = "0.1.0"
+authors = [
+  { name="Mariusz", email="mwatroba@student.agh.edu.pl" },
+]
+description = "A simple pint-based unit converter for AGH assignment."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "pint>=0.20",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "pdoc"]
+
+[project.urls]
+"Homepage" = "https://github.com/Man1ek27/simple-unit-converter"
+"Bug Tracker" = "https://github.com/Man1ek27/simple-unit-converter/issues"
