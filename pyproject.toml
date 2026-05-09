@@ -16,7 +16,7 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
 ]
 dependencies = [
-    "pint==0.18",
+    "pint>=0.20",
 ]
 
 [project.optional-dependencies]
